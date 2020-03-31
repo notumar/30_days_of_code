@@ -2,7 +2,7 @@ def guess_my_number(attempts,answer):
     '''
     takes a guess from a user and returns the difference between their final guess and the actual value
     
-    Parameters
+    Parameters to use
     ----------
     guess: int 
     a value between 0 and 100
