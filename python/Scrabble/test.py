@@ -1,4 +1,4 @@
-from AhmedTijani_Umar_day0 import word_score
+slang = "jo"
+word = f"alaye {slang}"
 
-
-print (word_score("word"))
+print(word)
