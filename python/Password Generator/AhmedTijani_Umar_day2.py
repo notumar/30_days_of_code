@@ -17,9 +17,6 @@ def password_generator(length):
     return suggested_password
 
 
-print(password_generator(30))
-
-
 
 
     
