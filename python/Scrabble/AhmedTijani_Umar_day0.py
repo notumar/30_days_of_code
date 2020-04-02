@@ -1,4 +1,12 @@
 def word_score(word):
+    """returns Scrabble score of input word
+    
+    Arguments:
+        word {str} -- The input word
+    
+    Returns:
+        int -- The score of the word
+    """
     letter_scores = {
         1: "aeioulnrst",
         2: "dg",
@@ -17,3 +25,5 @@ def word_score(word):
                     total+=k
 
     return total
+
+word_score()
