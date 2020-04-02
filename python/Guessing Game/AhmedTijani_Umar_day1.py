@@ -19,11 +19,11 @@ def guess_my_number(attempts,answer):
             continue
         else:
             if guess == answer:
-                print(f"Youre right! The number was guess:{guess} and answer:{answer}")
+                return f"Youre right! The number was guess: {guess} and answer: {answer}"
                 break
 
             elif guess > answer:
-                print ("guess lower")
+                return "guess lower"
                 attempts -=1
                 print(f"you have {attempts} attempts left")
 
@@ -32,9 +32,9 @@ def guess_my_number(attempts,answer):
                 attempts -=1
                 print(f"you have {attempts} attempts left")
     else:
-        print(f"you have {attempts} attempts left... thanks for guessing!")
+        return f"you have {attempts} attempts left... thanks for guessing!"
 
 
 
 
-
+print (guess_my_number(4,12))
